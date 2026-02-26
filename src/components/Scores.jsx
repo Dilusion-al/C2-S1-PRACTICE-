@@ -1,5 +1,6 @@
 
-export default function Scores({courseName, results}) {
+import Statistic from "./StatisticPanel"
+export default function Scores({ courseName, results }) {
     return (
         <div className="scores">
             <h1>{courseName}</h1>
@@ -10,7 +11,7 @@ export default function Scores({courseName, results}) {
                         <th>Last name</th>
                         <th>Score</th>
                     </tr>
-                </thead>    
+                </thead>
                 <tbody>
                     {results.map((result, index) => (
                         <tr key={index}>
@@ -21,6 +22,12 @@ export default function Scores({courseName, results}) {
                     ))}
                 </tbody>
             </table>
+
+            <Statistic results="average" />
+        
         </div>
+
     )
+
+
 }
