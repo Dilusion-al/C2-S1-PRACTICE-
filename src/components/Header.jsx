@@ -1,6 +1,6 @@
 import pnLogo from "../assets/pn-logo.png";
 
-function Header({ batchName }) {
+export default function Header({ batchName }) {
   return (
     <header id="header">
       <img src={pnLogo} alt="PN Logo" />
@@ -9,4 +9,4 @@ function Header({ batchName }) {
   );
 }
 
-export default Header;
+
