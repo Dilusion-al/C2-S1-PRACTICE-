@@ -109,3 +109,24 @@ body {
 .warning {
   color: var(--secondary-color);
 }
+
+.Statistic-Box {
+  border: 1px solid white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  padding: 10px;
+  border-radius: 10px;
+  background-color: white;
+  color: black;
+}
+.Statistic-Box p {
+  margin: 0;
+  font-size: 1rem;
+
+.lala {
+  font-weight: bold;
+  color: black;
+  font-size: 2rem;
+}}

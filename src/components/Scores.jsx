@@ -23,8 +23,7 @@ export default function Scores({ courseName, results }) {
                 </tbody>
             </table>
 
-            <Statistic results="average" />
-        
+            <Statistic results={results} />
         </div>
 
     )

@@ -17,9 +17,9 @@ export default function Statistic({ results }) {
 
     return (
         <div className="Statistic-Box">
-            <p>Average 51 </p>
-            <p>Min 33 </p>
-            <p>Max 75 </p>
+            <p>Average <span className="lala">{average.toFixed(2)}</span></p>
+            <p>Min <span className="lala">{minimun.score}</span></p>
+            <p>Max <span className="lala">{maximum.score}</span></p>
         </div>
     )
 }

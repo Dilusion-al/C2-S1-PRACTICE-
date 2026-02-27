@@ -13,6 +13,7 @@ function App() {
         <Scores courseName="HTML" results={HTML_RESULTS} />
         <Scores courseName="English" results={ENGLISH_RESULTS} />
       </main>
+
     </>
   );
 }
